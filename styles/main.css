@@ -1,8 +1,6 @@
 @import './variables.css';
 @import './breakpoint.css';
-@import './fonts.css'
-
-
+@import './fonts.css';
 /* main styles */
 /* header style */
 
@@ -14,15 +12,198 @@
 
 /* section 1 style ends */
 
-/* section 2 style begins */
+/* section 2 style begins added by femi */
+/*temporal body styling*/
+body{
+    position: relative;
+    max-width: 1002px;
+    margin: 3% 10% 2%;
+    font-family: avenir;
+    background-color:rgb(245, 245, 253);
+}
+
+.pinkbox {
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;   
+}
+
+.pinkbox{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    max-width: 100%;
+}
+
+/* section 2 style ends added by femi*/
+
+/* section 3 style begins added by femi*/
+.pb-big {
+    padding-right: 35px;
+    padding-bottom: 50px;
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 90%;
+color: #212353;
+}
+.pb-small {
+    padding-bottom: 20px;
+    padding-right: 35px;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+color: #4B5D68;
+}
+.feature-wrapper{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 100%;
+padding: 100px;
+padding-bottom: 80px;
+color: #212353;
+}
+.feature-text {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #4B5D68;
+    line-height: 120%;
+    padding-bottom: 30px;
+}
+.lightgreenbox {
+    display: flex;
+    justify-content: space-between;
+    height: 49%;
+    width: 48%;
+    position: relative;
+    padding: 10px;
+    padding-left:  0px;
+    background: rgba(104, 201, 186, .1); ;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 150px;
+}
+
+.imd{
+    
+    margin-left: -100px;
+}
+.search {
+    text-transform: capitalize;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 130%;
+    color: #212353;
+}
+.search-text {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.lpb{
+    display: flex;
+    justify-content: space-between;
+    height:49%;
+    width: 66%;
+    padding: 10px;
+    background-color:rgba(156, 105, 226, .1) ;    
+    border-radius: 50px;
+    align-items: center;
+    border-top-left-radius: 150px;
+}
+.green1{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 150px;
+    height: 49%;
+    width: 48%;
+    padding: 10px;
+   background-color:  rgba(240, 99, 184, 0.1);    
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 200px;
+    border-left: 100px;
+
+}
+.green2{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 150px;
+    height: 49%;
+    width: 48%;
+    padding: 10px;
+    background: rgba(104, 201, 186, .1);    
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 200px;
+}
+.print {
+    
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 130%;
+        color: #212353;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align :center;
+}
+.printsmall{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.boxbtn {
+    font-family: avenir;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    color: #212353;
+}
+.divwrapper1 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    max-width: 100%;
+}
+.divwrapper2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 100%;
+}
 
 
-/* section 2 style ends */
-
-/* section 3 style begins */
-
-
-/* section 3 style ends */
+/* section 3 style ends added by fcemi*/
 
 /* section 4 style begins */
 
